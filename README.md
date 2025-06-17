@@ -65,7 +65,7 @@ import MyCamera from "./my-camera.js";
 AFRAME.registerComponent('my-camera', MyCamera)
 ```
 ```html
-<a-camera id="camera" npn-camera cursor="rayOrigin: mouse; fuse: false;" look-controls="touchEnabled:false;mouseEnabled:false;" raycaster="objects: .cantap">
+<a-camera id="camera" my-camera cursor="rayOrigin: mouse; fuse: false;" look-controls="touchEnabled:false;mouseEnabled:false;" raycaster="objects: .cantap">
 </a-camera>
 ```
 
